@@ -10,10 +10,9 @@ export default defineConfig({
   plugins: [
     viteStaticCopy({
       targets: [
-        {
-          src: "offerte.html",
-          dest: ".", // zet het in dist/
-        },
+        { src: "offerte.html", dest: "." },
+        { src: "styles.css", dest: "." },
+        { src: "script.js", dest: "." },
       ],
     }),
   ],
