@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     ❌ Er is een technische fout opgetreden bij het verzenden. 
                     <br><br>
                     <strong>Neem direct contact op:</strong><br>
-                    📧 Email: yassirfilalichbli2007@gmail.com<br>
+                    📧 Email: yassirfilalichbili525@gmail.com<br>
                     📱 Telefoon: +31 6 1234 5678<br>
                     <br>
                     <em>Vermeld je naam en dat je geïnteresseerd bent in de conversieboost service.</em>
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 timeline: formData.get('timeline') || 'Niet opgegeven',
                 goals: formData.get('goals') || 'Niet opgegeven',
                 message: formData.get('message') || 'Geen aanvullende informatie',
-                to_email: 'yassirfilalichbli2007@gmail.com'
+                to_email: 'yassirfilalichbili525@gmail.com'
             };
 
             // For demonstration, we'll create a mailto link as fallback
@@ -191,7 +191,7 @@ Verzonden via contactformulier op ${window.location.href}
             `);
 
             // Create mailto link and trigger it
-            const mailtoLink = `mailto:yassirfilalichbli2007@gmail.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:yassirfilalichbili525@gmail.com?subject=${subject}&body=${body}`;
             
             // Try to open email client
             const link = document.createElement('a');
